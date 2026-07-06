@@ -3,41 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bean There Coffee | Your Local Brew</title>
+    <title>Brew & Bean | Artisan Coffee</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Bean There Coffee</h1>
-            <ul>
+        <nav class="container">
+            <div class="logo">Brew & Bean</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Freshly Roasted, Locally Loved.</h2>
-        <p>Start your day with the perfect cup.</p>
-    </section>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Crafted with Passion, Served with Love.</h1>
+                <p>Experience the finest artisan coffee in the heart of the city.</p>
+                <a href="#menu" class="btn">View Our Menu</a>
+            </div>
+        </section>
 
-    <section id="menu">
-        <h2>Our Favorites</h2>
-        <div class="menu-grid">
-            <div class="menu-item">Espresso</div>
-            <div class="menu-item">Cappuccino</div>
-            <div class="menu-item">Cold Brew</div>
-        </div>
-    </section>
+        <section id="menu" class="menu-section container">
+            <h2>Our Favorites</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <h3>Espresso</h3>
+                    <p>Rich, bold, and perfectly extracted.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Latte</h3>
+                    <p>Velvety steamed milk meets smooth espresso.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Cold Brew</h3>
+                    <p>Slow-steeped for 24 hours for a smooth finish.</p>
+                </div>
+            </div>
+        </section>
 
-    <footer id="contact">
-        <h2>Visit Us</h2>
-        <p>123 Coffee Lane, Brew City</p>
-        <p>Phone: (555) 123-4567</p>
-        <div class="socials">
-            <a href="#">Instagram</a> | <a href="#">Facebook</a>
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Visit Us</h2>
+                <p>123 Coffee Lane, Bean City</p>
+                <p>Open Daily: 7am - 6pm</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Brew & Bean. All rights reserved.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
